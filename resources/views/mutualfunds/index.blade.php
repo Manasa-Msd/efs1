@@ -13,7 +13,7 @@
             <th>Purchase Date</th>
             <th>Purchase Price</th>
             <th>Current Price</th>
-	<th>Shares</th>
+			<th>Shares</th>
             <th colspan="3">Actions</th>
         </tr>
         </thead>

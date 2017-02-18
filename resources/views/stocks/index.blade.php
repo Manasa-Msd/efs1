@@ -29,6 +29,7 @@
                 <td>{{ $stock->purchased }}</td>
                 <td><a href="{{url('stocks',$stock->id)}}" class="btn btn-primary">Read</a></td>
                 <td><a href="{{route('stocks.edit',$stock->id)}}" class="btn btn-warning">Update</a></td>
+				<td><a href="http://google.com/finance"target="_blank" class="btn btn-primary">Google Finance</a></td>
                 <td>
                     {!! Form::open(['method' => 'DELETE', 'route'=>['stocks.destroy', $stock->id]]) !!}
                     {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
